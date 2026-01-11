@@ -1,4 +1,4 @@
-# Printing patterns
+# Printing patterns examples
 def print_stars(n):
     print("*"*n)   
 print_stars(10)
@@ -37,10 +37,10 @@ def print_patterns(n):
             print(" ", end=" ")
         
         for j in range(i, n-1):
-            print(i, end=" ")
+            print("*", end=" ")
             
         for j in range(i, n):
-            print(j, end=" ")
+            print("#", end=" ")
             
         print("")
         
